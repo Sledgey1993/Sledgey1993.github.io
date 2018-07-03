@@ -421,22 +421,22 @@ nav a:hover {
    }
 
    /*style for menu items*/
-   .menu_button {
-       /*width: 200px;*/
-       /*z-index:-1*/
-       text-align: center;
-       font-size: 30px;
-       padding: 10px;
-       border: none;
-       background: rgba(0, 0, 0, 0.5);
-       color: #fff;
-       cursor: pointer;
-	   border-radius: 25px;
-	   margin: 10px 10px 10px 10px;
-       /*height: 45px;
+.menu_button {
+    /*width: 200px;*/
+    /*z-index:-1*/
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    border: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: 10px 10px 10px 10px;
+    display: block; /*SHOULD MOVE TO RESPONSIVE RULE ASAP*/
+    /*height: 45px;
        width: 45px;*/
-
-   }
+}
 
    .menu_button:hover {
        background: #ddd;
@@ -448,3 +448,21 @@ nav a:hover {
 	padding-top:10px;
 	padding-bottom:10px;
    }
+
+.visible-mobile {
+    display: none !important;
+}
+
+@media (max-width: 489px) {
+    .visible-mobile {
+        display: inline !important;
+    }
+
+    .hidden-mobile {
+        display: none !important;
+    }
+}
+
+#background_image {
+
+}
