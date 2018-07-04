@@ -205,6 +205,14 @@ nav a:hover {
     .oldie nav a {
         margin: 0 0.7%;
     }
+
+    .visible-mobile {
+        display: inline !important;
+    }
+
+    .hidden-mobile {
+        display: none !important;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -246,6 +254,17 @@ nav a:hover {
         float: right;
         width: 28%;
     }
+
+/*setting a picture as background for mobile*/
+/*
+    .visible-mobile {
+        display: inline !important;
+    }
+
+    .hidden-mobile {
+        display: none !important;
+    }
+    */
 }
 
 @media only screen and (min-width: 1140px) {
@@ -445,10 +464,14 @@ nav a:hover {
 
    #main_title {
     text-align: center;
-	padding-top:10px;
-	padding-bottom:10px;
+	padding-bottom:2%;
    }
 
+.visible-mobile {
+    display: none !important;
+}
+
+/*
 .visible-mobile {
     display: none !important;
 }
@@ -463,6 +486,4 @@ nav a:hover {
     }
 }
 
-#background_image {
-
-}
+*/
