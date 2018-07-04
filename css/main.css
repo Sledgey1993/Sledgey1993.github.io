@@ -120,6 +120,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
+
 /* ==============
     MOBILE: Main
    ============== */
@@ -177,6 +178,11 @@ nav a:hover {
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
+   
+.menu_button {
+    display: normal;
+}    
+
 
     nav a {
         float: left;
@@ -213,6 +219,7 @@ nav a:hover {
     .hidden-mobile {
         display: none !important;
     }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -256,7 +263,7 @@ nav a:hover {
     }
 
 /*setting a picture as background for mobile*/
-/*
+
     .visible-mobile {
         display: inline !important;
     }
@@ -264,7 +271,7 @@ nav a:hover {
     .hidden-mobile {
         display: none !important;
     }
-    */
+
 }
 
 @media only screen and (min-width: 1140px) {
@@ -375,7 +382,7 @@ nav a:hover {
     }
 
     img {
-        max-width: 100% !important;
+        /*max-width: 100% !important;*/
     }
 
     p,
@@ -452,7 +459,7 @@ nav a:hover {
     cursor: pointer;
     border-radius: 25px;
     margin: 10px 10px 10px 10px;
-    display: block; /*SHOULD MOVE TO RESPONSIVE RULE ASAP*/
+    /*display: block; /*SHOULD MOVE TO RESPONSIVE RULE ASAP*/
     /*height: 45px;
        width: 45px;*/
 }
@@ -469,11 +476,17 @@ nav a:hover {
 
 #background_img {
     position: fixed;
-    right: 0;
-    bottom: 0;
+    /*right: 0;
+    bottom: 0;*/
     min-width: 100%;
     min-height: 100%;
+    width:100%;
+    top:-3%;
 }
+
+/*.menu_button {
+    display: block;
+}*/
 
 /*.visible-mobile {
     display: none !important;
