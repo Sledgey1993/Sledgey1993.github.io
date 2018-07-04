@@ -467,9 +467,17 @@ nav a:hover {
 	padding-bottom:2%;
    }
 
-.visible-mobile {
-    display: none !important;
+#background_img {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
+
+/*.visible-mobile {
+    display: none !important;
+}*/
 
 /*
 .visible-mobile {
