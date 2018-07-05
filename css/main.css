@@ -179,9 +179,7 @@ nav a:hover {
     INTERMEDIATE: Menu
    ==================== */
    
-.menu_button {
-    display: normal;
-}    
+
 
 
     nav a {
@@ -508,3 +506,13 @@ nav a:hover {
 }
 
 */
+
+/*@media only screen and (min-width: 480px)*/
+
+@media (max-width:480px) {
+
+    .menu_button{
+        display: inline-block;
+    }
+
+}
